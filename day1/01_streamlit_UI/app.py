@@ -35,6 +35,11 @@ st.subheader("テキスト入力")
 name = st.text_input("あなたの名前", "ゲスト")
 st.write(f"こんにちは、{name}さん！")
 
+st.subheader("YouTube動画再生")
+if st.button("YouTube動画を再生"):
+    st.video("https://www.youtube.com/watch?v=jWQx2f-CErU")
+    st.write("韓国で有名なアイドルグループの曲です")
+
 # ボタン
 # st.subheader("ボタン")
 # if st.button("クリックしてください"):
